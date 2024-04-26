@@ -1,0 +1,10 @@
+Desafio 1: Jogo da Forca em Python
+Objetivo:
+Criar um jogo da forca clássico em Python, com funcionalidades básicas e jogabilidade simplificada.
+
+Funcionalidades:
+
+Palavra secreta: Escondida do jogador, pode ser carregada de um arquivo ou definida manualmente.
+Tentativas: Número máximo de erros antes da derrota.
+Feedback: Mostre as letras acertadas e incorretas durante o jogo.
+Vitória/Derrota: Exiba mensagens informativas ao final do jogo.
