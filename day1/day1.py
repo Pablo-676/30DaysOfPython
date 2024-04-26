@@ -13,7 +13,7 @@ Vitória/Derrota: Exiba mensagens informativas ao final do jogo."""
 import pandas as pd
 
 # Lê o arquivo CSV contendo uma lista de palavras e seleciona uma palavra aleatória
-df = pd.read_csv('C:/Users/Pablo Vítor/Desktop/Scripts/30daysOfPython/palavras.csv')
+df = pd.read_csv('palavras.csv')
 word_to_guess = df.sample().iloc[0, 0]
 word_to_guess = word_to_guess.lower()
 
