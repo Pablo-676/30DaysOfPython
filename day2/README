@@ -1,0 +1,9 @@
+Desafio 2: Sistema de Cadastro
+Objetivo:
+Desenvolver um sistema de cadastro de usuários simples em Python. 
+
+Funcionalidades:
+O sistema deve:
+solicitar nome, email, senha e outros dados relevantes
+Armazena-los em uma estrutura adequada (listas, dicionários, etc.). 
+Implementar funções para cadastro, consulta e atualização de informações.
