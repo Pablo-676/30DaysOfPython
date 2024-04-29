@@ -1,0 +1,14 @@
+Bem-vindo ao script de cadastro de usuários em Python com Tkinter!
+
+Este script permite que você cadastre, pesquise, liste e altere usuários em um aplicativo desktop simples. 
+O script utiliza a biblioteca Tkinter para criar a interface gráfica e o Pandas para manipular os dados dos usuários.
+
+No entanto, escrever este script apresentou alguns desafios e limitações. 
+A primeira limitação é que o script não valida a entrada de dados do usuário, o que pode levar a erros se o usuário inserir dados inválidos. 
+Além disso, o script não possui uma interface de alteração de cadastro, pois isso exigiria a implementação de uma janela modal ou uma outra aba, o que fugiria do escopo do script.
+
+Além disso, ao tentar criar a aba de alteração de cadastro, enfrentei alguns desafios com a manipulação de widgets em frames aninhados. 
+Isso ocorre porque a aba de alteração de cadastro exigiria a criação de um frame adicional dentro do frame principal do formulário de cadastro, o que poderia levar a confusão na organização dos widgets e seus respectivos comandos.
+
+Por fim, é importante notar que o script é apenas uma demonstração simples de como utilizar Tkinter e Pandas para criar um aplicativo de cadastro de usuários. 
+Em um ambiente de produção, é recomendável implementar validação de entrada de dados, manipulação de exceções e segurança de dados adicionais.
