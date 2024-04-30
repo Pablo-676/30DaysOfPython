@@ -1,0 +1,4 @@
+Esse script é um gerenciador de senhas simples que utiliza criptografia sha256 e AES para proteger as senhas do usuário. 
+Ele permite que os usuários armazenem e recuperem suas senhas de forma segura, além de fornecer uma interface simples para exibir as informações do usuário e as senhas salvas. 
+O script requer as bibliotecas hashlib, Crypto, string e random do Python e é distribuído sob a licença MIT. 
+Se você quiser contribuir com o script, sinta-se à vontade para abrir uma issue ou enviar um pull request no repositório do GitHub.
