@@ -1,0 +1,5 @@
+Netflix Titles Data Analysis
+Este script realiza uma análise exploratória de um conjunto de dados sobre títulos disponíveis na Netflix. 
+O conjunto de dados é lido a partir de um arquivo CSV e armazenado em um dataframe do pandas. 
+Em seguida, o dataframe é limpo e preparado para análise, removendo linhas com valores nulos e convertendo algumas colunas para tipos de dados apropriados. 
+Por fim, estatísticas descritivas e outras informações sobre o dataframe limpo são exibidas.
