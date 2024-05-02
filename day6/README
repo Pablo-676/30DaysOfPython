@@ -1,0 +1,22 @@
+Netflix Titles Analysis
+Este repositório contém um notebook Jupyter para análise de dados sobre títulos disponíveis no Netflix. O objetivo é limpar e analisar os dados fornecidos no arquivo netflix_titles.csv.
+
+Estrutura do Repositório
+netflix_titles.csv: arquivo com dados brutos sobre títulos do Netflix.
+Netflix_Titles_Analysis.ipynb: notebook Jupyter com análise de dados.
+README.md: este arquivo.
+
+Análise
+A análise é realizada em três etapas:
+
+Limpeza e preparação dos dados.
+Criação de gráficos para visualizar a quantidade de filmes e séries de TV lançadas por ano.
+Criação de um gráfico para visualizar a porcentagem de filmes e séries de TV.
+Criação de um gráfico para visualizar a quantidade de filmes e séries por gênero.
+
+Resultados
+A análise dos dados mostra as seguintes tendências:
+Ao exibir os gráficos fig1, fig2 e fig3, é possível analisar a tendência de filmes e séries de TV, além de entender a quantidade de filmes e séries lançadas por ano e por gênero.
+Note que, ao longo dos anos, a quantidade de séries de TV aumentou significativamente, e as séries de TV passaram a representar uma porcentagem maior no conjunto de filmes e séries.
+A tendência de lançamento de filmes e séries de TV mostra um aumento gradual, com menos séries de TV lançadas no início do período e mais séries de TV lançadas ao longo dos anos.
+Note que a análise desses gráficos pode auxiliar na identificação de tendências, gêneros populares e possíveis lacunas no conjunto de dados.
