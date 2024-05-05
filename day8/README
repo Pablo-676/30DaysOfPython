@@ -1,0 +1,30 @@
+Scraping Financeiro
+Este repositório contém um script em Python para realizar o scraping de dados financeiros de cotações de moedas e criptomoedas a partir de duas páginas da web e armazenar os dados em planilhas do Excel.
+
+Requisitos
+Python 3.x
+
+As bibliotecas a seguir devem ser instaladas:
+pandas
+BeautifulSoup
+Selenium
+xlsxwriter
+
+Instalação
+Clone o repositório em sua máquina local:
+git clone https://github.com/seu-usuario/scraping-financeiro.git
+
+Instale as bibliotecas necessárias usando pip:
+pip install pandas beautifulsoup4 selenium xlsxwriter
+Baixe o driver do navegador Firefox para o Selenium no site oficial: https://github.com/mozilla/geckodriver/releases
+Defina a variável de ambiente webdriver.gecko.driver com o caminho do driver do Firefox.
+
+Uso
+Execute o script scraping_financeiro.py:
+python scraping_financeiro.py
+O script irá realizar o scraping de dados de cotações de moedas e criptomoedas e armazenar os dados em planilhas do Excel.
+
+Saída
+Os dados serão armazenados em duas planilhas do Excel no arquivo Scraping_financeiro.xlsx:
+Cotação: dados de cotações de moedas
+Cripto: dados de criptomoedas
