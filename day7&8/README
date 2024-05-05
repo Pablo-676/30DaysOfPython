@@ -1,0 +1,38 @@
+Script de Análise de Personalidade e Recomendação de Filmes
+Esse script é responsável por analisar dados de personalidade e realizar recomendações de filmes com base nas características de personalidade do usuário.
+
+Instruções
+Certifique-se de ter os dados 2018-personality-data.csv e 2018_ratings.csv no mesmo diretório do script.
+Execute o script no seu ambiente Python.
+
+Descrição do Script
+Importação de bibliotecas e carregamento dos dados.
+Seleção e pré-processamento dos dados relevantes.
+Cálculo da matriz de correlação entre as variáveis.
+Separação dos dados em variáveis dependentes e independentes.
+Divisão dos dados em conjuntos de treinamento e teste.
+Treinamento de um modelo de regressão linear com os dados de treinamento.
+Avaliação do modelo de regressão linear com os dados de teste.
+Criação de um usuário de teste com características pré-definidas.
+Previsão de classificações para o usuário de teste com o modelo treinado.
+Seleção do filme com a classificação prevista máxima como recomendação.
+
+Variáveis
+personality: tabela com dados de personalidade.
+ratings: tabela com dados de classificações de filmes.
+personality1: tabela de personalidade processada e selecionada.
+scaler: objeto MinMaxScaler para normalização de dados.
+Y: variável dependente (classificação prevista).
+X: variável independente (características de personalidade).
+x_treino, x_teste, y_treino, y_teste: dados divididos em treinamento e teste.
+modelo_regressao: modelo de regressão linear treinado.
+y_regressao: previsões do modelo de regressão linear.
+filmes_teste: filmes únicos para teste.
+user_info: informações do usuário de teste.
+usuario_teste: tabela com as informações do usuário de teste.
+recomendacao: filme com a classificação prevista máxima.
+
+Observações
+O script utiliza um modelo de regressão linear simples para prever as classificações dos filmes.
+O modelo pode ser aprimorado com a adição de outras variáveis ou ajustes nos hiperparâmetros.
+As características de personalidade do usuário de teste podem ser ajustadas para obter diferentes recomendações.
