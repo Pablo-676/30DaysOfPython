@@ -1,0 +1,22 @@
+Organize Files
+Organize Files é um script simples que ajuda a organizar arquivos em diferentes pastas com base em seus tipos. Ele usa a biblioteca tkinter para selecionar uma pasta raiz e a biblioteca os para manipular arquivos e pastas.
+
+Como usar
+Clone o repositório ou faça o download do arquivo organize_files.py.
+Execute o script usando um interpretador Python, por exemplo: python organize_files.py
+Selecione uma pasta raiz para organizar seus arquivos.
+O script irá criar pastas para cada tipo de arquivo e mover os arquivos correspondentes para as pastas criadas.
+Tipos de arquivos suportados
+Imagens: .png, .jpg, .CR2, .webp, .jpeg, .raw
+Vídeos: .mp4, .wmv
+Arquivos 3D: .blend, .blend1, .stl, .gcode, .svg, .3mf, .mtl, .dwg
+Planilhas: .xlsm, .csv, .xlsx, .xls, .XLS, .sql, .xltx
+Documentos: .docx, .doc, .pdf, .pptx, .txt
+Arquivos compactados: .zip, .rar
+Instaladores: .exe, .msi, .iso
+Arquivos Python: .py, .pynb
+Dependências
+Python 3.x
+Biblioteca tkinter (incluída no Python padrão)
+Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
