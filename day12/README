@@ -1,0 +1,26 @@
+Análise de Dados Sintéticos
+Este repositório contém um código em Python para gerar dados sintéticos para 9 tabelas, onde cada tabela contém um conjunto de valores y gerados aleatoriamente com base em um valor inicial de 5 e um limite superior de 8. O código também gera um valor x correspondente aos índices dos valores y. Em seguida, o código ajusta uma regressão linear aos dados de cada tabela e armazena os coeficientes de regressão em uma lista. O código também calcula outras estatísticas, como o tamanho da tabela, a média, o desvio padrão e a derivada dos valores y. Por fim, o código gera um gráfico de linhas usando a biblioteca Plotly e um heatmap usando a biblioteca Seaborn para mostrar a correlação entre as estatísticas calculadas.
+
+Pré-requisitos
+Para executar o código, você precisará ter o Python instalado em sua máquina, bem como as seguintes bibliotecas:
+
+matplotlib
+numpy
+scikit-learn
+pandas
+seaborn
+plotly
+Como executar o código
+Para executar o código, basta clonar o repositório e executar o arquivo main.py usando o Python. O código gerará os dados sintéticos, ajustará a regressão linear, calculará as estatísticas e gerará os gráficos.
+
+Resultados
+O código gera os seguintes resultados:
+
+Um gráfico de linhas mostrando os valores y reais e preditos para cada tabela
+Um heatmap mostrando a correlação entre as estatísticas calculadas
+Uma tabela com as estatísticas calculadas para cada tabela
+Contribuições
+Contribuições são bem-vindas! Se você tiver alguma sugestão ou melhoria para o código, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+Licença
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo LICENSE para obter mais detalhes.
