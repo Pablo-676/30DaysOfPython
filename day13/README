@@ -1,0 +1,41 @@
+Classificador de Imagens de Animais usando Google Generative AI
+
+Descrição
+
+Este repositório contém um script Python que usa a biblioteca Google Generative AI para classificar animais em imagens. O script recebe um diretório de arquivos de imagem como entrada, classifica os animais em cada imagem usando um modelo gerativo e renomeia os arquivos com base no nome da espécie do animal classificado.
+
+Recursos
+
+Classifica animais em imagens usando um modelo gerativo
+Suporta processamento em lote de arquivos de imagem
+Renomeia arquivos com base no nome da espécie do animal classificado
+Utiliza a biblioteca Google Generative AI para geração e classificação de texto
+Requisitos
+
+Python 3.7 ou superior
+Biblioteca Google Generative AI (instale com pip install google-generativeai)
+Biblioteca Pathlib (instale com pip install pathlib)
+Biblioteca Logging (instale com pip install logging)
+Uso
+
+Clone este repositório para sua máquina local
+Instale as bibliotecas necessárias usando pip install -r requirements.txt
+Substitua "your_code" pelo seu código da API do Google Generative AI na linha genai.configure
+Atualize a variável directory para apontar para o diretório contendo seus arquivos de imagem
+Execute o script usando python animal_image_classifier.py
+Nota
+
+Este script assume que os arquivos de imagem estão no mesmo diretório que o script. Se seus arquivos de imagem estiverem em um diretório diferente, atualize a variável directory adequadamente.
+O script usa um lote de 5 imagens para classificação. Você pode atualizar o valor do range na função for para alterar o tamanho do lote.
+O script renomeia os arquivos com base no nome da espécie do animal classificado. Certifique-se de atualizar a variável caminho para apontar para o diretório de saída desejado.
+Licença
+
+Este repositório está licenciado sob a Licença MIT. Consulte LICENSE para obter detalhes.
+
+Contribuições
+
+Contribuições são bem-vindas! Se você gostaria de contribuir para este repositório, por favor, faça um fork do repositório, faça suas alterações e envie um pull request.
+
+Problemas
+
+Se você encontrar algum problema com este script, por favor, abra um problema neste repositório. Eu farei o possível para ajudá-lo a solucionar o problema.
